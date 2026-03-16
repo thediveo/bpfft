@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+set -e
 
 if grep -qE '\s/sys/kernel/debug\s.*\s-\sdebugfs\s' /proc/self/mountinfo; then
     echo "debugfs already present"

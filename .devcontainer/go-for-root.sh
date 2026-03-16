@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+set -e
 
 echo "Defaults:vscode secure_path =" \
     '"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin"' \
